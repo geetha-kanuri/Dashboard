@@ -1,0 +1,79 @@
+/* src/Styles/Sidebar.css */
+
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-right: 1px solid #e0e0e0;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.logo-highlight {
+  color: #0dbf9b;
+}
+
+.nav-section {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 13px;
+  color: #999;
+  text-transform: uppercase;
+  margin: 20px 0 10px;
+}
+
+.nav-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-section li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.nav-section li:hover {
+  background-color: #f0f0f0;
+}
+
+.nav-section li.active {
+  background-color: #e6f7f4;
+  color: #0dbf9b;
+  font-weight: 600;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.settings:hover {
+  color: #0dbf9b;
+}

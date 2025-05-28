@@ -1,0 +1,25 @@
+.dashboard-main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.main-right {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
